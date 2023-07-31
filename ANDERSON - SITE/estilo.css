@@ -1,0 +1,411 @@
+/*
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img_logo_header{
+    width: 10em;
+}
+
+
+#header{
+    background-color: #004284;
+    height: 7em;
+    display: flex;
+    align-items: center;
+  
+}
+
+#navigation_header{
+    display: flex ;
+    gap: 10%;
+    margin-left: 70em;
+    color: white;
+    font-family: 'REM', sans-serif;
+    list-style: none;
+}
+
+#div-1 {
+    height: 50em;
+    border: solid 1px  rgb(220, 241, 252);
+}
+
+#div {
+    margin-top: -10em;
+}
+
+
+#txt-1 {
+    color: #004284;
+    font-family: 'REM', sans-serif;
+    margin-left: 5em;
+    font-weight: 800;
+    font-size: 3em;
+    width: 23em;
+    margin-top: -10em;
+    display: flex;
+}
+
+#homem-triste {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#bt-1 {
+    border-radius: 1em;
+    border: none;
+    background-color: #004284;
+    height: 5em;
+    width: 15em;
+    margin-left: 18em;
+}
+
+#BT-1-TXT {
+    color: white;
+    font-family: 'REM', sans-serif;
+    text-decoration: none;
+}
+
+#anderson {
+    margin-top: 20em;
+    width: 16em;
+    margin-left: 24em;
+}
+
+#txt-2 {
+    margin-left: 22em;
+    color: #004284;
+    font-family: 'REM', sans-serif;
+    margin-top: -13em;
+    font-weight: 500;
+    font-size: 2em;   
+}
+
+#p2 {
+    margin-left: 44em;
+    font-size: 1em;   
+    margin-top: 1em;
+    font-family: 'REM', sans-serif;
+    color: black;
+}
+
+#tel {
+    color: #004284;
+}
+
+#psicologo {
+   
+    width: 40em;
+}
+
+#div-3 {
+    background-color: rgb(245, 247, 255);
+    height: 40em;
+    margin-top: 6em;
+}
+
+#Acolhimento {
+    margin-left: 44em;
+    font-size: 1em;   
+    margin-top: -33em;
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+#txt-acolhimento {
+    font-size: 1em;   
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+
+#Atendimento {
+    margin-left: 44em;
+    font-size: 1em;   
+    margin-top: 8em;
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+#txt-atendimento {
+    font-size: 1em;   
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+
+#Orientação {
+    margin-left: 105em;
+    font-size: 1em;   
+    margin-top: -28em;
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+#txt-orientação {
+    font-size: 1em;   
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+
+#comportamento {
+    margin-left: 105em;
+    font-size: 1em;   
+    margin-top: 10em;
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+#txt-comportamento  {
+    font-size: 1em;   
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+
+#footer {
+    background-color: #004284;
+    height: 20em;
+    color: white;
+     font-family: 'REM', sans-serif;
+     border: solid 1px  #004284;
+}
+
+#entre {
+    margin-left: 20em;
+    margin-top: 5em;
+    display: flex;
+}
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img_logo_header{
+    width: 10em;
+}
+
+
+#header{
+    background-color: #004284;
+    height: 7em;
+    display: flex;
+    align-items: center;
+  
+}
+
+#navigation_header{
+    display: flex ;
+    gap: 10%;
+    margin-left: 50em;
+    color: white;
+    font-family: 'REM', sans-serif;
+    list-style: none;
+}
+
+#div-1 {
+    height: 50em;
+    border: solid 1px  rgb(220, 241, 252);
+}
+
+#div {
+    margin-top: -10em;
+}
+
+
+#txt-1 {
+    color: #004284;
+    font-family: 'REM', sans-serif;
+    margin-left: 5em;
+    font-weight: 800;
+    font-size: 3em;
+    width: 23em;
+    margin-top: -10em;
+    display: flex;
+}
+
+#homem-triste {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#bt-1 {
+    border-radius: 1em;
+    border: none;
+    background-color: #004284;
+    height: 5em;
+    width: 15em;
+    margin-left: 18em;
+}
+
+#BT-1-TXT {
+    color: white;
+    font-family: 'REM', sans-serif;
+    text-decoration: none;
+}
+
+#anderson {
+    margin-top: 20em;
+    width: 14em;
+    margin-left: 16em;
+}
+
+#txt-2 {
+    margin-left: 20em;
+    color: #004284;
+    font-family: 'REM', sans-serif;
+    margin-top: -13em;
+    font-weight: 500;
+    font-size: 2em;   
+}
+
+#p2 {
+    margin-left: 40em;
+    font-size: 1em;   
+    margin-top: 1em;
+    font-family: 'REM', sans-serif;
+    color: black;
+}
+
+#tel {
+    color: #004284;
+}
+
+#psicologo {
+    width: 30em;
+}
+
+#div-3 {
+    background-color: rgb(245, 247, 255);
+    height: 30em;
+    margin-top: 6em;
+
+}
+
+#Acolhimento {
+    margin-left: 32em;
+    font-size: 1em;   
+    margin-top: -27em;
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+#txt-acolhimento {
+    font-size: 1em;   
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+
+#Atendimento {
+    margin-left: 32em;
+    font-size: 1em;   
+    margin-top: 5em;
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+#txt-atendimento {
+    font-size: 1em;   
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+
+#Orientação {
+    margin-left: 77em;
+    font-size: 1em;   
+    margin-top: -24em;
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+#txt-orientação {
+    font-size: 1em;   
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+
+#comportamento {
+    margin-left: 77em;
+    font-size: 1em;   
+    margin-top: 6em;
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+#txt-comportamento  {
+    font-size: 1em;   
+    font-family: 'REM', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+
+#footer {
+    background-color: #004284;
+    height: 35em;
+    color: white;
+     font-family: 'REM', sans-serif;
+     border: solid 1px  #004284;
+}
+
+#entre {
+    font-size: 1.3em;
+    margin-left: 35em;
+    margin-top: 3em;
+    display: flex;
+    text-align: center;
+}
+
+#direitos {
+    font-size: 0.9em;
+    margin-left: 57em;
+    margin-top: 10em;
+    display: flex;
+    text-align: center;
+}
+
+#CRP { 
+    margin-top: 0.1em;
+    font-size: 1.1em;
+    margin-left: 47em;
+    display: flex;
+    text-align: center;
+}
+ 
+
+#whatsapp {
+    width: 1.1em;
+}
+
+#consulta {
+    
+    font-size: 1.3em;
+    margin-left: 35em;
+    margin-top: 3em;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-family: 'REM', sans-serif;
+   
+}
